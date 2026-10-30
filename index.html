@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h2>MyPortfolio</h2>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div>
+            <h1>Hello, I'm <span>Suddais</span></h1>
+            <h3>Beginner Web Developer</h3>
+            <p>I create websites using HTML, CSS and JavaScript.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+            My name is Suddais. I am a beginner web developer.
+            I love learning programming and creating websites.
+            My goal is to become a professional web developer.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skill-box">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+            <div>MS Excel</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-box">
+            <div class="card">
+                <h3>Calculator</h3>
+                <p>Simple calculator using HTML, CSS and JS.</p>
+            </div>
+
+            <div class="card">
+                <h3>Product Cards</h3>
+                <p>Beautiful product cards using HTML and CSS.</p>
+            </div>
+
+            <div class="card">
+                <h3>Image Slider</h3>
+                <p>Image slider using JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+
+        <input type="text" id="name" placeholder="Enter Your Name">
+        <input type="email" id="email" placeholder="Enter Your Email">
+        <textarea id="message" placeholder="Enter Your Message"></textarea>
+
+        <button onclick="sendMessage()">Send Message</button>
+
+        <p id="result"></p>
+    </section>
+
+    <footer>
+        <p>Copyright © 2026 Suddais | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
